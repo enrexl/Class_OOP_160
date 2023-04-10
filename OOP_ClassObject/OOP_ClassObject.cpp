@@ -18,17 +18,18 @@ private:
     string namaMk;
 public:
     void inputMk() {
-        cout << "\nMasukkan Kode Matakuliah = ";
-        cin >> kode;
-        cout << "Masukkan Matakuliah = ";
-        cin >> namaMk;
-        cout << "Jumlah SKS = ";
+        cout << "\nJumlah SKS = ";
         cin >> sks;
+        cout << "\nMasukkan Kode Mk = ";
+        cin >> kode;
+        cout << "\nMasukkan Nama Mk = ";
+        cin >> namaMk;
+        
     }
     void tampilMk() {
-        cout << "\nKode Matakuliah : " << kode;
-        cout << "\nNama Matakuliah : " << namaMk;
-        cout << "\nSKS : " << sks;
+        cout << "\nJumlah SKS = " << sks;
+        cout << "\nKode MK = " << kode;
+        cout << "\n Nama Mk = " << namaMk;
     }
 };
 
