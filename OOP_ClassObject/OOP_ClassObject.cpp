@@ -43,5 +43,7 @@ int main()
     cin >> mhs1.nama;
 
     mk.inputMk();
+    mhs1.tampil();
+    
     
 } 
