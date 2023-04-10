@@ -42,8 +42,6 @@ int main()
     cout << "Masukkan Nama = ";
     cin >> mhs1.nama;
 
-  
-
+    mk.inputMk();
     
-
 } 
