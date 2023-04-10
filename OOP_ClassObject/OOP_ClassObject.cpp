@@ -11,13 +11,13 @@ public:
     }
 };
 
-class MataKuliah() {
+class MataKuliah {
 private:
     int sks;
     string kode;
     string namaMk;
 public:
-    void input() {
+    void inputMk() {
         cout << "\nMasukkan Kode Matakuliah = ";
         cin >> kode;
         cout << "Masukkan Matakuliah = ";
@@ -25,16 +25,25 @@ public:
         cout << "Jumlah SKS = ";
         cin >> sks;
     }
-    void tampil() {
+    void tampilMk() {
         cout << "\nKode Matakuliah : " << kode;
         cout << "\nNama Matakuliah : " << namaMk;
         cout << "\nSKS : " << sks;
     }
-}
+};
 
 int main()
 {
     Mahasiswa mhs1;
     MataKuliah mk;
+
+    cout << "Masukkan NIM = ";
+    cin >> mhs1.nim;
+    cout << "Masukkan Nama = ";
+    cin >> mhs1.nama;
+
+  
+
+    
 
 } 
