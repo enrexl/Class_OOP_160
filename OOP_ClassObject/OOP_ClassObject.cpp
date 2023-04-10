@@ -29,7 +29,7 @@ public:
     void tampilMk() {
         cout << "\nJumlah SKS = " << sks;
         cout << "\nKode MK = " << kode;
-        cout << "\n Nama Mk = " << namaMk;
+        cout << "\nNama Mk = " << namaMk;
     }
 };
 
@@ -43,8 +43,11 @@ int main()
     cout << "Masukkan Nama = ";
     cin >> mhs1.nama;
 
+    
+
+
     mk.inputMk();
     mhs1.tampil();
     mk.tampilMk();
-    
+    system("pause");
 } 
