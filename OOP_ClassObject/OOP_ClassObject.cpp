@@ -25,7 +25,10 @@ public:
         cout << "Jumlah SKS = ";
         cin >> sks;
     }
-}
+    void tampil() {
+        cout << "\nKode Matakuliah : " << kode;
+        cout << "\nNama Matakuliah : " << namaMk;
+        cout << "\nSKS : " << sks;
 int main()
 {
     std::cout << "Hello World!\n";
