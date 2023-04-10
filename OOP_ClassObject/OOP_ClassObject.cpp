@@ -44,6 +44,6 @@ int main()
 
     mk.inputMk();
     mhs1.tampil();
-    
+    mk.tampilMk();
     
 } 
